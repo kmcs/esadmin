@@ -1,0 +1,61 @@
+{
+  "name"    : "esadmin",
+
+  "include" :
+  [
+    {
+      "path" : "${QOOXDOO_PATH}/tool/data/config/application.json"
+    }
+  ],
+
+  "export" :
+  [
+    "api",
+    "api-data",
+    "build",
+    "clean",
+    "distclean",
+    "dependencies",
+    "fix",
+    "info",
+    "inspector",
+    "lint",
+    "migration",
+    "pretty",
+    "profiling",
+    "source",
+    "source-all",
+    "source-hybrid",
+    "source-server",
+    "source-server-reload",
+    "source-httpd-config",
+    "test",
+    "test-source",
+    "translation",
+    "validate-config",
+    "validate-manifest",
+    "watch"
+  ],
+
+  "default-job" : "source-hybrid",
+
+  "let" :
+  {
+    "APPLICATION"  : "kmcs.esadmin",
+    "QOOXDOO_PATH" : "../lib/qooxdoo-trunk",
+    "QXTHEME"      : "kmcs.esadmin.theme.Theme",
+    "API_EXCLUDE"  : ["qx.test.*", "${APPLICATION}.theme.*", "${APPLICATION}.test.*"],
+    "LOCALES"      : [ "de", "en" ],
+    "CACHE"        : "${TMPDIR}/qx${QOOXDOO_VERSION}/cache",
+    "ROOT"         : ".",
+    "BUILD_PATH"   : "dist"
+  },
+
+  // You only need to edit the remainder of this file, if you want to customize
+  // specific jobs, or add own job definitions.
+
+  "jobs" :
+  {
+    
+  }
+}

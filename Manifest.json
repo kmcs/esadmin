@@ -1,0 +1,34 @@
+{
+  "info" : 
+  {
+    "name" : "esadmin",
+
+    "summary" : "Simple ElasticSearch Data Manipulation-Tool",
+    "description" : "This tool shows your ElasticSearch Data wrapped in a table. A double click on a cell starts editor mode.",
+    
+    "homepage" : "http://github.com/kmcs/esadmin/",
+
+    "license" : "GPL",
+    "authors" : 
+    [
+      {
+        "name" : "Timo Kiefer",
+        "email" : "timo.kiefer@kmcs.de"
+      }
+    ],
+
+    "version" : "master",
+    "qooxdoo-versions": ["4.1"]
+  },
+  
+  "provides" : 
+  {
+    "namespace"   : "kmcs.esadmin",
+    "encoding"    : "utf-8",
+    "class"       : "source/class",
+    "resource"    : "source/resource",
+    "translation" : "source/translation",
+    "type"        : "application"
+  }
+}
+

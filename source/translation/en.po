@@ -1,0 +1,44 @@
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"Report-Msgid-Bugs-To: you@your.org\n"
+"POT-Creation-Date: 2014-09-26 17:16+0100\n"
+"PO-Revision-Date: 2014-09-26 17:16+0100\n"
+"Last-Translator: you <you@your.org>\n"
+"Language-Team: Team <yourteam@your.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: kmcs/esadmin/ui/FilterDialog.js:7
+msgid "Filterung"
+msgstr "Filtering"
+
+#: kmcs/esadmin/ui/FilterDialog.js:35
+msgid "Filter hinzufügen"
+msgstr "add filter"
+
+#: kmcs/esadmin/ui/FilterDialog.js:44
+msgid "übernehmen"
+msgstr "accept"
+
+#: kmcs/esadmin/ui/FilterDialog.js:57
+msgid "abbrechen"
+msgstr "cancel"
+
+#: kmcs/esadmin/ui/FilterDialog.js:91
+msgid "entfernen"
+msgstr "remove"
+
+#: kmcs/esadmin/ui/Main.js:29
+msgid "Verbindungen"
+msgstr "Connections"
+
+#: kmcs/esadmin/ui/TableTab.js:62
+msgid "Aktualisieren"
+msgstr "refresh"
+
+#: kmcs/esadmin/ui/TableTab.js:68
+msgid "Filtern"
+msgstr "filter"
